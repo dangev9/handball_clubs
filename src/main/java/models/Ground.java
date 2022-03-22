@@ -23,4 +23,9 @@ public class Ground {
     private String opened;
     private String capacity;
     private String location;
+
+    public Ground(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 }
